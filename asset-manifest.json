@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/static/css/main.0906c777.css",
+    "main.js": "/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/static/js/main.7d8154fe.js",
+    "static/media/banner.jpg": "/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/static/media/banner.a554040472fda64e61fe.jpg",
+    "index.html": "/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/index.html",
+    "main.0906c777.css.map": "/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/static/css/main.0906c777.css.map",
+    "main.7d8154fe.js.map": "/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/static/js/main.7d8154fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0906c777.css",
+    "static/js/main.7d8154fe.js"
+  ]
+}
