@@ -1,9 +1,8 @@
-"homepage": "https://lkdlkd.github.io/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/",
-
 {
   "name": "chua-travinh",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lkdlkd.github.io/csn-da22tta-lekhanhdang-gioithieuchua-reactjs/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -13,13 +12,16 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^5.0.0"  // Thêm gh-pages vào dependencies nếu chưa có
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",  // Thêm script để xây dựng trước khi triển khai
+    "deploy": "gh-pages -d build"   // Thêm script để triển khai lên GitHub Pages
   },
   "eslintConfig": {
     "extends": [
